@@ -175,11 +175,78 @@ hr {
 
 /* about section end */
 
+/* card section start */
+
+.card-section { 
+  background-color: rgba(35, 14, 61, 1);
+  padding-top: 60px;
+}
+
+.card-section h1 {
+  color: white;
+  font-size: 44px;
+  font-weight: 700;
+  width: 71%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card-section .cards {
+  width: 71%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.cards {
+  color: white;
+}
+
+.cards h2 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px 0px;
+}
 
 
+.premium {
+  padding: 30px;
+  grid-row: span 2;
+  border-radius: 20px;
+  background-color: rgba(53, 17, 101, 0.4);
+}
 
+.mobile{
+  padding: 30px;
+  grid-column: span 2;
+  background-color: rgba(53, 17, 101, 0.4);
+  border-radius: 20px;
 
+}
 
+.global {
+  padding: 30px;
+  grid-column: span 2;
+  background-color: rgba(53, 17, 101, 0.4);
+  border-radius: 20px;
 
+}
 
+.exclusive {
+  padding: 30px;
+  grid-column: span 2;
+  background-color: rgba(53, 17, 101, 0.4);
+  border-radius: 20px;
+}
 
+.rich {
+  padding: 30px;
+  grid-column: span 1;
+  background-color: rgba(53, 17, 101, 0.4);
+  border-radius: 20px;
+}
+
+/* card section end */
