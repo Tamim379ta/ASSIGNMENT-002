@@ -250,3 +250,58 @@ hr {
 }
 
 /* card section end */
+
+/* video section start */
+
+.video-section {
+  background-color: rgba(26, 11, 46, 1);
+}
+
+.video-section h1 {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-size: 48px;
+  font-weight: 700;
+  width: 71%;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.video-card-section {
+  display: flex;
+  width: 71%;
+  margin: 0 auto;
+  gap: 60px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+
+}
+
+iframe {
+  border-radius: 30px;
+}
+.video-card h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+  padding: 10px 20px;
+}
+
+.video-card p {
+  padding: 0px 20px;
+  color: white;
+}
+.video-img {
+  display: inline-flex;
+  gap: 5px;
+  color: rgb(48, 218, 48);
+  padding: 20px 25px ;
+}
+.video-card {
+  background-color: rgba(53, 17, 101, 0.4);
+  border-radius: 30px;
+
+}
+
+/* video section end */
