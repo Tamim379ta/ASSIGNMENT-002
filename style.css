@@ -40,7 +40,7 @@ nav .wave {
 
 nav ul{
   display: flex;
-  gap: 30px;
+  gap: 40px;
   align-items: center;
   color: white;
 }
@@ -53,8 +53,75 @@ nav button {
     border-radius: 20px;
     padding: 0px 30px;
     margin: 15px 0px;
+    cursor: pointer;
 }
 /* header part end*/
+
+/* main section start */ 
+
+main {
+  background-image: url(./assets/hero-bg.png);
+}
+
+main .double-img {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+main .img2 {
+  position: absolute;
+}
+
+main .hero-part-text {
+  width: 71%;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+main h1 {
+  color: white;
+  font-size: 68px;
+  font-weight: 800;
+}
+
+main p { 
+  color: white;
+}
+
+.hero-btn-section {
+  padding-top: 20px;
+  display: inline-flex;
+  gap: 20px;
+}
+
+.hero-btn1 {
+  background:  linear-gradient( to top,
+    rgba(247, 233, 63, 1),
+    rgba(251, 9, 180, 1),
+    rgba(145, 0, 248, 1)); 
+    border-radius: 30px;
+    padding: 5px 25px;
+    cursor: pointer;
+    color: white;
+}
+
+.hero-btn2 {
+  border: 2px solid rgb(48, 218, 48);
+  border-radius: 30px;
+  padding: 5px 30px;
+  cursor: pointe;
+  color: rgb(48, 218, 48);
+}
+/*main section end*/
+
+/* about section start */
+
+
 
 
 
