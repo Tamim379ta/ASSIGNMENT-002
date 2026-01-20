@@ -40,6 +40,10 @@ nav ul{
   color: white;
 }
 
+nav img {
+  display: none;
+}
+
 nav button {
   background: linear-gradient( to top,
     rgba(247, 233, 63, 1),
@@ -66,6 +70,27 @@ main .double-img {
   position: relative;
 }
 
+main .double-img h2 {
+  background-color: rgba(75, 255, 75, 0.954);
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 35px;
+  box-shadow: 0px 0px 15px 5px springgreen;
+  position: absolute;
+  margin-bottom: 280px;
+  margin-left: 200px;
+  animation: new 1.5s ease-in-out infinite alternate ;
+
+}
+@keyframes new {
+  form {
+    transform: translateY(0px);
+  }
+  to{
+    transform: translateY(-15px);
+  }
+  
+}
 main .img2 {
   position: absolute;
 }
@@ -380,13 +405,15 @@ footer h1 span {
 }
 
 .footer-logo-text {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  width: 50%;
   margin: 0 auto;
   justify-content: center;
-  width: 71%;
   gap: 30px;
   color: white;
   padding-top: 20px;
+
 }
 
 .footer-logo {
@@ -398,4 +425,113 @@ footer P {
   color: lightgoldenrodyellow;
   padding: 70px 0px;
   text-align: center;
+}
+
+/* footer section end */
+
+/* mobile device */
+
+@media screen and  (max-width: 576px) {
+  nav ul {
+    display: none;
+    
+  }
+  header nav {
+    width: 90%;
+  }
+  nav button { 
+    display: none;
+  }
+
+  nav img {
+    display: unset;
+    margin-top: 30px;
+    width: 25px;
+    height: 20px;
+  }
+
+  nav .tech {
+    font-size: 38px;
+  }
+
+ main {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: rgba(26, 11, 46, 1);
+ }
+
+ main .double-img h2 {
+  margin-top: 0px;
+  margin-left: 100px;
+ }
+main img {
+  width: 200px;
+  margin-top: -100px;
+}
+ main .img2 {
+  width: 70px;
+ }
+ 
+
+ .about-card-section {
+  grid-template-columns: repeat(2 ,1fr);
+  gap: 30px;
+ }
+
+ .card-section .cards {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  width: 90%;
+  
+ }
+
+ .card-section h1 {
+  font-size: 36px;
+ }
+
+ .video-section h1 {
+  font-size: 36px;
+ }
+
+ .video-card-section {
+  flex-direction: column;
+ }
+
+ .challenge-section h1 {
+  font-size: 36px;
+
+ }
+
+ .host {
+  flex-direction: column;
+  text-align: center;
+ }
+ .challeng-logo {
+  justify-content: center;
+ }
+
+ footer {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #211041;
+ }
+
+ footer h1 {
+  font-size: 28px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+ }
+
+ .footer-logo-text {
+  grid-template-columns: repeat(2,auto);
+  font-size: 12px;
+  gap: 10px;
+  padding-top: 0px;
+ }
+footer p {
+  font-size: 8px;
+  padding: 20px 0px;
+}
+
+
 }
