@@ -522,6 +522,12 @@ main img {
   padding-bottom: 10px;
  }
 
+ .footer-logo{
+  
+  justify-content: center;
+  
+ }
+
  .footer-logo-text {
   grid-template-columns: repeat(2,auto);
   font-size: 12px;
